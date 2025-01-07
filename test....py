@@ -1,0 +1,6 @@
+fname = input("Enter your first name.")
+lname = input("Enter your last name.")
+address = input("Enter your address.")
+age = input("Enter your age.")
+# print("Hello" +str(fname)+"," )
+print(f"Hello {fname}, Your full name is {fname} {lname}. You live in {address} and you are {age} years old.")
